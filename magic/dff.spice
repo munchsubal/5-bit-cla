@@ -1,0 +1,86 @@
+* SPICE3 file created from dff.ext - technology: scmos
+
+.option scale=90n
+
+M1000 gnd d x Gnd nfet w=10 l=2
++  ad=90p pd=38u as=90p ps=38u
+M1001 gnd a_137_25# a_218_n4# Gnd nfet w=10 l=2
++  ad=90p pd=38u as=90p ps=38u
+M1002 a_229_25# clk a_218_n4# Gnd nfet w=10 l=2
++  ad=90p pd=38u as=90p ps=38u
+M1003 vdd clk a_137_25# w_128_49# pfet w=20 l=2
++  ad=0.18n pd=58u as=0.18n ps=58u
+M1004 q a_229_25# vdd w_269_47# pfet w=20 l=2
++  ad=0.18n pd=58u as=0.18n ps=58u
+M1005 a_87_26# clk x w_67_18# pfet w=20 l=2
++  ad=0.18n pd=58u as=0.18n ps=58u
+M1006 q a_229_25# gnd Gnd nfet w=10 l=2
++  ad=90p pd=38u as=90p ps=38u
+M1007 a_229_25# a_137_25# vdd w_209_48# pfet w=20 l=2
++  ad=0.18n pd=58u as=0.18n ps=58u
+M1008 a_148_n4# clk gnd Gnd nfet w=10 l=2
++  ad=90p pd=38u as=90p ps=38u
+M1009 a_148_n4# x a_137_25# Gnd nfet w=10 l=2
++  ad=90p pd=38u as=90p ps=38u
+M1010 a_87_26# d vdd w_67_18# pfet w=20 l=2
++  ad=0.18n pd=58u as=0.18n ps=58u
+C0 a_137_25# a_148_n4# 0.16501f
+C1 clk a_218_n4# 0.10729f
+C2 a_87_26# x 0.13746f
+C3 a_137_25# a_229_25# 0.07571f
+C4 vdd a_229_25# 0.19716f
+C5 vdd a_87_26# 0.19523f
+C6 w_209_48# a_229_25# 0.02507f
+C7 w_67_18# x 0.01807f
+C8 d clk 0.01133f
+C9 w_269_47# vdd 0.07131f
+C10 w_128_49# clk 0.09606f
+C11 w_67_18# vdd 0.07062f
+C12 a_218_n4# gnd 0.06873f
+C13 q gnd 0.11686f
+C14 clk gnd 0.15089f
+C15 a_137_25# a_218_n4# 0.09719f
+C16 d gnd 0.24321f
+C17 clk x 0.30378f
+C18 vdd q 0.19523f
+C19 d x 0.14109f
+C20 clk a_137_25# 0.40596f
+C21 vdd clk 0.09816f
+C22 w_269_47# a_229_25# 0.02331f
+C23 w_128_49# a_137_25# 0.02261f
+C24 d vdd 0.07402f
+C25 w_67_18# a_87_26# 0.04299f
+C26 w_128_49# vdd 0.0738f
+C27 x gnd 0.16501f
+C28 a_229_25# a_218_n4# 0.06873f
+C29 a_137_25# gnd 0.07571f
+C30 clk a_148_n4# 0.09719f
+C31 a_229_25# q 0.07829f
+C32 a_137_25# x 0.10172f
+C33 clk a_229_25# 0.09719f
+C34 w_269_47# q 0.01842f
+C35 a_87_26# clk 0.09719f
+C36 vdd a_137_25# 0.29338f
+C37 d a_87_26# 0.08635f
+C38 w_209_48# a_137_25# 0.09286f
+C39 w_209_48# vdd 0.0738f
+C40 w_67_18# clk 0.07242f
+C41 w_67_18# d 0.10929f
+C42 a_148_n4# gnd 0.06873f
+C43 a_229_25# gnd 0.0984f
+C44 x a_148_n4# 0.08667f
+C45 gnd 0 1.34238f **FLOATING
+C46 a_218_n4# 0 0.09772f **FLOATING
+C47 a_148_n4# 0 0.09277f **FLOATING
+C48 x 0 0.52899f **FLOATING
+C49 q 0 0.17001f **FLOATING
+C50 a_229_25# 0 0.49186f **FLOATING
+C51 a_137_25# 0 1.05901f **FLOATING
+C52 clk 0 1.99848f **FLOATING
+C53 a_87_26# 0 0.07037f **FLOATING
+C54 vdd 0 1.10257f **FLOATING
+C55 d 0 0.7066f **FLOATING
+C56 w_269_47# 0 1.48852f **FLOATING
+C57 w_209_48# 0 1.60604f **FLOATING
+C58 w_128_49# 0 1.56686f **FLOATING
+C59 w_67_18# 0 3.01621f **FLOATING
